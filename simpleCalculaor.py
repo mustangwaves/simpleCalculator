@@ -29,5 +29,17 @@ elif action == 'Square Root':
     number1 = float(input('Enter the number'))
     solution = math.sqrt(number1)
     print(solution)
+elif action == 'sin':
+    number1 = math.radians(float(input('Enter the number')))
+    solution = math.sin(number1)
+    print(solution)
+elif action == 'cos':
+    number1 = math.radians(float(input('Enter the number')))
+    solution = math.cos(number1)
+    print(solution)
+elif action == 'tan':
+    number1 = math.radians(float(input('Enter the number')))
+    solution = math.tan(number1)
+    print(solution)
 else:
     print('Error: input cannot be understood')
